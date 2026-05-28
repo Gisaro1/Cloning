@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-white font-sans"> 
+    <main class="h-screen bg-[url('banner-bg.jpg')] bg-cover bg-center rounded-b-[100px]  ">
+         <header >
+    <div class="flex flex-row justify-between items-center z-10">
+         <img src="logo.png" alt="logo" class="px-24 py-10">
+        <ul class="flex flex-row gap-8 justify-end px-16 ">
+            <li class="border bg-blue-500 rounded-full h-10 px-6 flex justify-center items-center border-blue-500">Home</li>
+            <li class="hover:bg-blue-500 rounded-full h-10 px-6 flex justify-center items-center cursor-pointer transition">Our Shop</li>
+            <li class="hover:bg-blue-500 rounded-full h-10 px-6 flex justify-center items-center cursor-pointer transition"> Product Details</li>
+            <li class="hover:bg-blue-500 rounded-full h-10 px-6 flex justify-center items-center cursor-pointer transition">Contact Us</li>
+            <li class="border bg-red-600 rounded-full h-10 px-6 flex justify-center items-center border-red-600">Sign In</li>
+        </ul>
+    </div>
+  </header>  
+  <div class="grid grid-cols-2 gap-10 pt-12 items-center px-24 py-10">
+        <div class="space-y-6">
+        <h6 class="font-bold uppercase tracking-wider text-lg">Welcome to lugx</h6>
+        <h2 class="text-5xl font-bold uppercase leading-tight">Best  <span class="underline decoration-red-500 decoration-4">Gaming</span> Site Ever!</span></h2>
+        <p class="text-gray-200 text-sm leading-relaxed max-w-lg">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You can download and use this layout for commercial purposes. Please tell your friends about TemplateMo.</p>
+        <div class="flex items-center bg-white rounded-full  max-w-md shadow-lg">
+                    <input type="text" placeholder="Type Something" class="w-full pl-6 pr-4 py-3 rounded-full text-gray-800 outline-none text-sm">
+                    <button class="bg-red-500 hover:bg-red-600 text-white font-bold px-8 py-4 rounded-full text-xs uppercase  transition whitespace-nowrap">
+                        Search Now
+                    </button>
+                </div>
+    </div>
+    <div class=" flex justify-end py-8">
+        <img src="banner-image.jpg" alt="" class="rounded-xl">
+    </div>
+  </div>
+    </main>
+<section class="px-24 py -mt-10 relative z-10">
+  <div class="grid grid-cols-4 gap-6">
+
+    <div class="bg-white rounded-2xl p-8 flex flex-col items-center gap-4 shadow-md">
+      <div class="bg-blue-500 rounded-full w-16 h-16 flex items-center justify-center">
+        <img src="featured-01.png" alt="Free Storage">
+      </div>
+      <p class="text-black font-bold uppercase tracking-wide text-sm">free Storage</p>
+    </div>
+    <div class="bg-white rounded-2xl p-8 flex flex-col items-center gap-4 shadow-md">
+      <div class="bg-blue-500 rounded-full w-16 h-16 flex items-center justify-center">
+        <img src="featured-02.png" alt="User More" class="w-8 h-8 object-contain">
+      </div>
+      <p class="text-black font-bold uppercase tracking-wide text-sm">User More</p>
+    </div>
+    <div class="bg-white rounded-2xl p-8 flex flex-col items-center gap-4 shadow-md">
+      <div class="bg-blue-500 rounded-full w-16 h-16 flex items-center justify-center">
+        <img src="featured-03.png" alt="Reply Ready" class="w-8 h-8 object-contain">
+      </div>
+      <p class="text-black font-bold uppercase tracking-wide text-sm">Reply Ready</p>
+    </div>
+    <div class="bg-white rounded-2xl p-8 flex flex-col items-center gap-4 shadow-md">
+      <div class="bg-blue-500 rounded-full w-16 h-16 flex items-center justify-center">
+        <img src="featured-04.png" alt="Easy Layout" class="w-8 h-8 object-contain">
+      </div>
+      <p class="text-black font-bold uppercase tracking-wide text-sm">Easy Layout</p>
+    </div>
+
+  </div>
+</section>
+<section class="px-24 py-10 ">
+    <div class="flex flex-col gap-4">
+        <h6 class="text-red-500 font-bold tracking-wider text-lg uppercase">Trending</h6>
+        <div class="flex flex-row justify-between items-center ">
+            <h1 class="font-bold text-black font-bold text-3xl">Trending Games</h1>
+            <button class="border bg-red-600 h-10 px-6 rounded-full flex items-center justify-center hover:bg-blue-500 font-semibold text-sm uppercase">view all</button>
+        </div>
+        
+    </div>
+</section>
+</body>
+</html>
