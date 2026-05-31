@@ -6,19 +6,65 @@
     <title>whynot?</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header class="h-screen bg-[url('banner-bg.jpg')] bg-cover bg-center overflow-hidden">
-            <div class="flex items-center justify-between ">
-                <img src="logo.png" alt="" class="px-24 py-10">
-                <ul class="flex flex-row gap-8  pr-24">
-                    <li class="text-white h-10 cursor-pointer border border-blue-500 rounded-full bg-blue-500 px-6 justify-center items-center transition py-2">Home</li>
-                    <li class="text-white cursor-pointer rounded-full hover:bg-blue-500 px-6 py-2 transition h-10 justify-center items-center">Our Shop</li>
-                    <li class="text-white cursor-pointer rounded-full hover:bg-blue-500 px-6 py-2 transition h-10 justify-center items-center">Product Details</li>
-                    <li class="text-white cursor-pointer rounded-full hover:bg-blue-500 px-6 py-2 transition h-10 justify-center items-center">Contact Us</li>
-                    <li class="text-white cursor-pointer border border-red-600 rounded-full bg-red-600 px-2 py-2 transition h-10 justify-center items-center">SIGN IN</li>
-                </ul>
+<body class="bg-white">
+ <div class="h-screen bg-[url('banner-bg.jpg')] bg-cover rounded-b-[100px] bg-center">
+    <main class="flex flex-row justify-between px-16 py-11 items-center"><!--header navbar -->  
+        <img src="logo.png" alt="" class="h-12">
+        <div>
+            <ul class="flex flex-row gap-8">
+                <li class="border border-blue-500 text-white bg-blue-500 px-3 py-1 rounded-full">Home</li>
+                <li class="text-white hover:bg-blue-500 px-3 py-1 rounded-full">Our Shop</li>
+                <li class="text-white hover:bg-blue-500 px-3 py-1 rounded-full">Product Details</li>
+                <li class="text-white hover:bg-blue-500 px-3 py-1 rounded-full">Contact Us</li>
+                <li class="border border-red-500 text-white bg-red-500 px-3 py-1 rounded-full uppercase">sign in</li>
+            </ul>
+        </div>
+    </main>
+    <section class="flex flex-row items-center justify-center  pt-24 gap-32"> <!--hero section!!!!!!!-->
+        <div class="flex flex-col space-y-6">
+            <h6 class="text-white text-lg font-bold tracking-wider">Welcome to lugx</h6>
+            <h1 class="uppercase text-white text-5xl font-bold tracking-wider">best <span class="underline decoration-red-500 decoration-4">gaming</span> site ever</h1>
+            <p class="text-white  leading-relaxed max-w-md">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. 
+            You can download and use this layout for commercial purposes. 
+            Please tell your friends about 
+            TemplateMo.</p>
+            <div class="flex items-center bg-white rounded-full max-w-md shadow-lg flex-shrink-0 justify-between">
+                <input type="text" placeholder="whynot???" class="pl-6  py-3 pr-4 text-gray-500 text-sm rounded-full flex justify-center items-center">
+                <button class="border border-red-600 bg-red-600  hover:bg-red-700 text-xs rounded-full text-white font-semibold h-11 ">SEARCH NOW</button>
             </div>
-        </d>
-    </header>
+        </div>
+        <img src="banner-image.jpg" alt="" class="rounded-lg">
+    </section>
+
+ </div>
+
+ <section class="px-24 md:-mt-10 mt-6 relative"> <!--hardddd againn-->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white rounded-2xl p-8 flex flex-col items-center gap-4 shadow-lg">
+            <div class="bg-blue-500 rounded-full w-16 h-16 flex items-center justify-center hover:bg-red-500">
+                <img src="featured-01.png" alt="">
+            </div>
+            <p class="text-black font-bold uppercase tracking-wide text-sm">Free Storage</p>
+        </div>
+           <div class="bg-white rounded-2xl p-8 flex flex-col items-center gap-4 shadow-lg">
+            <div class="bg-blue-500 rounded-full w-16 h-16 flex items-center justify-center hover:bg-red-500">
+                <img src="featured-02.png" alt="">
+            </div>
+            <p class="text-black font-bold uppercase tracking-wide text-sm">user more</p>
+        </div>
+           <div class="bg-white rounded-2xl p-8 flex flex-col items-center gap-4 shadow-lg">
+            <div class="bg-blue-500 rounded-full w-16 h-16 flex items-center justify-center hover:bg-red-500">
+                <img src="featured-03.png" alt="">
+            </div>
+            <p class="text-black font-bold uppercase tracking-wide text-sm">replay ready</p>
+        </div>
+           <div class="bg-white rounded-2xl p-8 flex flex-col items-center gap-4 shadow-lg">
+            <div class="bg-blue-500 rounded-full w-16 h-16 flex items-center justify-center hover:bg-red-500">
+                <img src="featured-04.png" alt="">
+            </div>
+            <p class="text-black font-bold uppercase tracking-wide text-sm">easy layout</p>
+        </div>
+    </div>
+ </section>
 </body>
 </html>
